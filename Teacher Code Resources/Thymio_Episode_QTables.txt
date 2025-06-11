@@ -1,0 +1,899 @@
+=== Thymio Q-Learning Training Log ===
+
+
+=== Episode 1 @ 2025-05-20 17:12:41 ===
+Initial State: Right Arm Front, Left Arm Front
+Action: Move Both Arms
+Reward: -1
+Future State: Right Arm Back, Left Arm Back
+Q-Table:
+  Right Arm Front, Left Arm Front:
+    Move Right Arm: 0.00
+    Move Left Arm: 0.00
+    Move Both Arms: -0.20
+  Right Arm Front, Left Arm Back:
+    Move Right Arm: 0.00
+    Move Left Arm: 0.00
+    Move Both Arms: 0.00
+  Right Arm Back, Left Arm Front:
+    Move Right Arm: 0.00
+    Move Left Arm: 0.00
+    Move Both Arms: 0.00
+  Right Arm Back, Left Arm Back:
+    Move Right Arm: 0.00
+    Move Left Arm: 0.00
+    Move Both Arms: 0.00
+
+=== Episode 2 @ 2025-05-20 17:12:45 ===
+Initial State: Right Arm Back, Left Arm Back
+Action: Move Both Arms
+Reward: -1
+Future State: Right Arm Front, Left Arm Front
+Q-Table:
+  Right Arm Front, Left Arm Front:
+    Move Right Arm: 0.00
+    Move Left Arm: 0.00
+    Move Both Arms: -0.20
+  Right Arm Front, Left Arm Back:
+    Move Right Arm: 0.00
+    Move Left Arm: 0.00
+    Move Both Arms: 0.00
+  Right Arm Back, Left Arm Front:
+    Move Right Arm: 0.00
+    Move Left Arm: 0.00
+    Move Both Arms: 0.00
+  Right Arm Back, Left Arm Back:
+    Move Right Arm: 0.00
+    Move Left Arm: 0.00
+    Move Both Arms: -0.20
+
+=== Episode 1 @ 2025-05-20 17:14:49 ===
+Initial State: Right Arm Front, Left Arm Front
+Action: Move Both Arms
+Reward: -1
+Future State: Right Arm Back, Left Arm Back
+Q-Table:
+  Right Arm Front, Left Arm Front:
+    Move Right Arm: 0.00
+    Move Left Arm: 0.00
+    Move Both Arms: -0.20
+  Right Arm Front, Left Arm Back:
+    Move Right Arm: 0.00
+    Move Left Arm: 0.00
+    Move Both Arms: 0.00
+  Right Arm Back, Left Arm Front:
+    Move Right Arm: 0.00
+    Move Left Arm: 0.00
+    Move Both Arms: 0.00
+  Right Arm Back, Left Arm Back:
+    Move Right Arm: 0.00
+    Move Left Arm: 0.00
+    Move Both Arms: 0.00
+
+=== Episode 2 @ 2025-05-20 17:15:06 ===
+Initial State: Right Arm Back, Left Arm Back
+Action: Move Right Arm
+Reward: 1
+Future State: Right Arm Front, Left Arm Back
+Q-Table:
+  Right Arm Front, Left Arm Front:
+    Move Right Arm: 0.00
+    Move Left Arm: 0.00
+    Move Both Arms: -0.20
+  Right Arm Front, Left Arm Back:
+    Move Right Arm: 0.00
+    Move Left Arm: 0.00
+    Move Both Arms: 0.00
+  Right Arm Back, Left Arm Front:
+    Move Right Arm: 0.00
+    Move Left Arm: 0.00
+    Move Both Arms: 0.00
+  Right Arm Back, Left Arm Back:
+    Move Right Arm: 0.20
+    Move Left Arm: 0.00
+    Move Both Arms: 0.00
+
+=== Episode 3 @ 2025-05-20 17:15:10 ===
+Initial State: Right Arm Front, Left Arm Back
+Action: Move Left Arm
+Reward: -1
+Future State: Right Arm Front, Left Arm Front
+Q-Table:
+  Right Arm Front, Left Arm Front:
+    Move Right Arm: 0.00
+    Move Left Arm: 0.00
+    Move Both Arms: -0.20
+  Right Arm Front, Left Arm Back:
+    Move Right Arm: 0.00
+    Move Left Arm: -0.20
+    Move Both Arms: 0.00
+  Right Arm Back, Left Arm Front:
+    Move Right Arm: 0.00
+    Move Left Arm: 0.00
+    Move Both Arms: 0.00
+  Right Arm Back, Left Arm Back:
+    Move Right Arm: 0.20
+    Move Left Arm: 0.00
+    Move Both Arms: 0.00
+
+=== Episode 1 @ 2025-05-20 17:21:57 ===
+Initial State: Right Arm Front, Left Arm Front
+Action: Move Both Arms
+Reward: -1
+Future State: Right Arm Back, Left Arm Back
+Q-Table:
+  Right Arm Front, Left Arm Front:
+    Move Right Arm: 0.00
+    Move Left Arm: 0.00
+    Move Both Arms: -0.20
+  Right Arm Front, Left Arm Back:
+    Move Right Arm: 0.00
+    Move Left Arm: 0.00
+    Move Both Arms: 0.00
+  Right Arm Back, Left Arm Front:
+    Move Right Arm: 0.00
+    Move Left Arm: 0.00
+    Move Both Arms: 0.00
+  Right Arm Back, Left Arm Back:
+    Move Right Arm: 0.00
+    Move Left Arm: 0.00
+    Move Both Arms: 0.00
+
+=== Episode 2 @ 2025-05-20 17:22:03 ===
+Initial State: Right Arm Back, Left Arm Back
+Action: Move Both Arms
+Reward: -1
+Future State: Right Arm Front, Left Arm Front
+Q-Table:
+  Right Arm Front, Left Arm Front:
+    Move Right Arm: 0.00
+    Move Left Arm: 0.00
+    Move Both Arms: -0.20
+  Right Arm Front, Left Arm Back:
+    Move Right Arm: 0.00
+    Move Left Arm: 0.00
+    Move Both Arms: 0.00
+  Right Arm Back, Left Arm Front:
+    Move Right Arm: 0.00
+    Move Left Arm: 0.00
+    Move Both Arms: 0.00
+  Right Arm Back, Left Arm Back:
+    Move Right Arm: 0.00
+    Move Left Arm: 0.00
+    Move Both Arms: -0.20
+
+=== Episode 3 @ 2025-05-20 17:22:06 ===
+Initial State: Right Arm Front, Left Arm Front
+Action: Move Right Arm
+Reward: 1
+Future State: Right Arm Back, Left Arm Front
+Q-Table:
+  Right Arm Front, Left Arm Front:
+    Move Right Arm: 0.20
+    Move Left Arm: 0.00
+    Move Both Arms: -0.20
+  Right Arm Front, Left Arm Back:
+    Move Right Arm: 0.00
+    Move Left Arm: 0.00
+    Move Both Arms: 0.00
+  Right Arm Back, Left Arm Front:
+    Move Right Arm: 0.00
+    Move Left Arm: 0.00
+    Move Both Arms: 0.00
+  Right Arm Back, Left Arm Back:
+    Move Right Arm: 0.00
+    Move Left Arm: 0.00
+    Move Both Arms: -0.20
+
+=== Episode 4 @ 2025-05-20 17:22:09 ===
+Initial State: Right Arm Back, Left Arm Front
+Action: Move Right Arm
+Reward: -1
+Future State: Right Arm Front, Left Arm Front
+Q-Table:
+  Right Arm Front, Left Arm Front:
+    Move Right Arm: 0.20
+    Move Left Arm: 0.00
+    Move Both Arms: -0.20
+  Right Arm Front, Left Arm Back:
+    Move Right Arm: 0.00
+    Move Left Arm: 0.00
+    Move Both Arms: 0.00
+  Right Arm Back, Left Arm Front:
+    Move Right Arm: -0.16
+    Move Left Arm: 0.00
+    Move Both Arms: 0.00
+  Right Arm Back, Left Arm Back:
+    Move Right Arm: 0.00
+    Move Left Arm: 0.00
+    Move Both Arms: -0.20
+
+=== Episode 5 @ 2025-05-20 17:22:13 ===
+Initial State: Right Arm Front, Left Arm Front
+Action: Move Right Arm
+Reward: 1
+Future State: Right Arm Back, Left Arm Front
+Q-Table:
+  Right Arm Front, Left Arm Front:
+    Move Right Arm: 0.36
+    Move Left Arm: 0.00
+    Move Both Arms: -0.20
+  Right Arm Front, Left Arm Back:
+    Move Right Arm: 0.00
+    Move Left Arm: 0.00
+    Move Both Arms: 0.00
+  Right Arm Back, Left Arm Front:
+    Move Right Arm: -0.16
+    Move Left Arm: 0.00
+    Move Both Arms: 0.00
+  Right Arm Back, Left Arm Back:
+    Move Right Arm: 0.00
+    Move Left Arm: 0.00
+    Move Both Arms: -0.20
+
+=== Episode 6 @ 2025-05-20 17:22:16 ===
+Initial State: Right Arm Back, Left Arm Front
+Action: Move Both Arms
+Reward: 1
+Future State: Right Arm Front, Left Arm Back
+Q-Table:
+  Right Arm Front, Left Arm Front:
+    Move Right Arm: 0.36
+    Move Left Arm: 0.00
+    Move Both Arms: -0.20
+  Right Arm Front, Left Arm Back:
+    Move Right Arm: 0.00
+    Move Left Arm: 0.00
+    Move Both Arms: 0.00
+  Right Arm Back, Left Arm Front:
+    Move Right Arm: -0.16
+    Move Left Arm: 0.00
+    Move Both Arms: 0.20
+  Right Arm Back, Left Arm Back:
+    Move Right Arm: 0.00
+    Move Left Arm: 0.00
+    Move Both Arms: -0.20
+
+=== Episode 7 @ 2025-05-20 17:22:20 ===
+Initial State: Right Arm Front, Left Arm Back
+Action: Move Both Arms
+Reward: 1
+Future State: Right Arm Back, Left Arm Front
+Q-Table:
+  Right Arm Front, Left Arm Front:
+    Move Right Arm: 0.36
+    Move Left Arm: 0.00
+    Move Both Arms: -0.20
+  Right Arm Front, Left Arm Back:
+    Move Right Arm: 0.00
+    Move Left Arm: 0.00
+    Move Both Arms: 0.24
+  Right Arm Back, Left Arm Front:
+    Move Right Arm: -0.16
+    Move Left Arm: 0.00
+    Move Both Arms: 0.20
+  Right Arm Back, Left Arm Back:
+    Move Right Arm: 0.00
+    Move Left Arm: 0.00
+    Move Both Arms: -0.20
+
+=== Episode 8 @ 2025-05-20 17:22:24 ===
+Initial State: Right Arm Back, Left Arm Front
+Action: Move Both Arms
+Reward: 1
+Future State: Right Arm Front, Left Arm Back
+Q-Table:
+  Right Arm Front, Left Arm Front:
+    Move Right Arm: 0.36
+    Move Left Arm: 0.00
+    Move Both Arms: -0.20
+  Right Arm Front, Left Arm Back:
+    Move Right Arm: 0.00
+    Move Left Arm: 0.00
+    Move Both Arms: 0.24
+  Right Arm Back, Left Arm Front:
+    Move Right Arm: -0.16
+    Move Left Arm: 0.00
+    Move Both Arms: 0.40
+  Right Arm Back, Left Arm Back:
+    Move Right Arm: 0.00
+    Move Left Arm: 0.00
+    Move Both Arms: -0.20
+
+=== Episode 9 @ 2025-05-20 17:22:27 ===
+Initial State: Right Arm Front, Left Arm Back
+Action: Move Both Arms
+Reward: 1
+Future State: Right Arm Back, Left Arm Front
+Q-Table:
+  Right Arm Front, Left Arm Front:
+    Move Right Arm: 0.36
+    Move Left Arm: 0.00
+    Move Both Arms: -0.20
+  Right Arm Front, Left Arm Back:
+    Move Right Arm: 0.00
+    Move Left Arm: 0.00
+    Move Both Arms: 0.46
+  Right Arm Back, Left Arm Front:
+    Move Right Arm: -0.16
+    Move Left Arm: 0.00
+    Move Both Arms: 0.40
+  Right Arm Back, Left Arm Back:
+    Move Right Arm: 0.00
+    Move Left Arm: 0.00
+    Move Both Arms: -0.20
+
+=== Episode 10 @ 2025-05-20 17:22:31 ===
+Initial State: Right Arm Back, Left Arm Front
+Action: Move Right Arm
+Reward: -1
+Future State: Right Arm Front, Left Arm Front
+Q-Table:
+  Right Arm Front, Left Arm Front:
+    Move Right Arm: 0.36
+    Move Left Arm: 0.00
+    Move Both Arms: -0.20
+  Right Arm Front, Left Arm Back:
+    Move Right Arm: 0.00
+    Move Left Arm: 0.00
+    Move Both Arms: 0.46
+  Right Arm Back, Left Arm Front:
+    Move Right Arm: -0.27
+    Move Left Arm: 0.00
+    Move Both Arms: 0.40
+  Right Arm Back, Left Arm Back:
+    Move Right Arm: 0.00
+    Move Left Arm: 0.00
+    Move Both Arms: -0.20
+
+=== Episode 11 @ 2025-05-20 17:22:35 ===
+Initial State: Right Arm Front, Left Arm Front
+Action: Move Left Arm
+Reward: 1
+Future State: Right Arm Front, Left Arm Back
+Q-Table:
+  Right Arm Front, Left Arm Front:
+    Move Right Arm: 0.36
+    Move Left Arm: 0.28
+    Move Both Arms: -0.20
+  Right Arm Front, Left Arm Back:
+    Move Right Arm: 0.00
+    Move Left Arm: 0.00
+    Move Both Arms: 0.46
+  Right Arm Back, Left Arm Front:
+    Move Right Arm: -0.27
+    Move Left Arm: 0.00
+    Move Both Arms: 0.40
+  Right Arm Back, Left Arm Back:
+    Move Right Arm: 0.00
+    Move Left Arm: 0.00
+    Move Both Arms: -0.20
+
+=== Episode 12 @ 2025-05-20 17:22:39 ===
+Initial State: Right Arm Front, Left Arm Back
+Action: Move Both Arms
+Reward: 1
+Future State: Right Arm Back, Left Arm Front
+Q-Table:
+  Right Arm Front, Left Arm Front:
+    Move Right Arm: 0.36
+    Move Left Arm: 0.28
+    Move Both Arms: -0.20
+  Right Arm Front, Left Arm Back:
+    Move Right Arm: 0.00
+    Move Left Arm: 0.00
+    Move Both Arms: 0.64
+  Right Arm Back, Left Arm Front:
+    Move Right Arm: -0.27
+    Move Left Arm: 0.00
+    Move Both Arms: 0.40
+  Right Arm Back, Left Arm Back:
+    Move Right Arm: 0.00
+    Move Left Arm: 0.00
+    Move Both Arms: -0.20
+
+=== Episode 13 @ 2025-05-20 17:22:43 ===
+Initial State: Right Arm Back, Left Arm Front
+Action: Move Both Arms
+Reward: 1
+Future State: Right Arm Front, Left Arm Back
+Q-Table:
+  Right Arm Front, Left Arm Front:
+    Move Right Arm: 0.36
+    Move Left Arm: 0.28
+    Move Both Arms: -0.20
+  Right Arm Front, Left Arm Back:
+    Move Right Arm: 0.00
+    Move Left Arm: 0.00
+    Move Both Arms: 0.64
+  Right Arm Back, Left Arm Front:
+    Move Right Arm: -0.27
+    Move Left Arm: 0.00
+    Move Both Arms: 0.64
+  Right Arm Back, Left Arm Back:
+    Move Right Arm: 0.00
+    Move Left Arm: 0.00
+    Move Both Arms: -0.20
+
+=== Episode 14 @ 2025-05-20 17:22:50 ===
+Initial State: Right Arm Front, Left Arm Back
+Action: Move Left Arm
+Reward: -1
+Future State: Right Arm Front, Left Arm Front
+Q-Table:
+  Right Arm Front, Left Arm Front:
+    Move Right Arm: 0.36
+    Move Left Arm: 0.28
+    Move Both Arms: -0.20
+  Right Arm Front, Left Arm Back:
+    Move Right Arm: 0.00
+    Move Left Arm: -0.14
+    Move Both Arms: 0.64
+  Right Arm Back, Left Arm Front:
+    Move Right Arm: -0.27
+    Move Left Arm: 0.00
+    Move Both Arms: 0.64
+  Right Arm Back, Left Arm Back:
+    Move Right Arm: 0.00
+    Move Left Arm: 0.31
+    Move Both Arms: -0.20
+
+=== Episode 15 @ 2025-05-20 17:22:50 ===
+Initial State: Right Arm Front, Left Arm Back
+Action: Move Left Arm
+Reward: -1
+Future State: Right Arm Front, Left Arm Front
+Q-Table:
+  Right Arm Front, Left Arm Front:
+    Move Right Arm: 0.36
+    Move Left Arm: 0.28
+    Move Both Arms: -0.20
+  Right Arm Front, Left Arm Back:
+    Move Right Arm: 0.00
+    Move Left Arm: -0.14
+    Move Both Arms: 0.64
+  Right Arm Back, Left Arm Front:
+    Move Right Arm: -0.27
+    Move Left Arm: 0.00
+    Move Both Arms: 0.64
+  Right Arm Back, Left Arm Back:
+    Move Right Arm: 0.00
+    Move Left Arm: 0.31
+    Move Both Arms: -0.20
+
+=== Episode 16 @ 2025-05-20 17:22:55 ===
+Initial State: Right Arm Front, Left Arm Front
+Action: Move Left Arm
+Reward: 1
+Future State: Right Arm Front, Left Arm Back
+Q-Table:
+  Right Arm Front, Left Arm Front:
+    Move Right Arm: 0.36
+    Move Left Arm: 0.54
+    Move Both Arms: -0.20
+  Right Arm Front, Left Arm Back:
+    Move Right Arm: 0.00
+    Move Left Arm: -0.14
+    Move Both Arms: 0.64
+  Right Arm Back, Left Arm Front:
+    Move Right Arm: -0.27
+    Move Left Arm: 0.00
+    Move Both Arms: 0.64
+  Right Arm Back, Left Arm Back:
+    Move Right Arm: 0.00
+    Move Left Arm: 0.31
+    Move Both Arms: -0.20
+
+=== Episode 1 @ 2025-05-20 17:31:38 ===
+Initial State: Right Arm Front, Left Arm Front
+Action: Move Left Arm
+Reward: 1
+Future State: Right Arm Front, Left Arm Back
+Q-Table:
+  Right Arm Front, Left Arm Front:
+    Move Right Arm: 0.00
+    Move Left Arm: 0.20
+    Move Both Arms: 0.00
+  Right Arm Front, Left Arm Back:
+    Move Right Arm: 0.00
+    Move Left Arm: 0.00
+    Move Both Arms: 0.00
+  Right Arm Back, Left Arm Front:
+    Move Right Arm: 0.00
+    Move Left Arm: 0.00
+    Move Both Arms: 0.00
+  Right Arm Back, Left Arm Back:
+    Move Right Arm: 0.00
+    Move Left Arm: 0.00
+    Move Both Arms: 0.00
+
+=== Episode 2 @ 2025-05-20 17:31:44 ===
+Initial State: Right Arm Front, Left Arm Back
+Action: Move Both Arms
+Reward: 1
+Future State: Right Arm Back, Left Arm Front
+Q-Table:
+  Right Arm Front, Left Arm Front:
+    Move Right Arm: 0.00
+    Move Left Arm: 0.20
+    Move Both Arms: 0.00
+  Right Arm Front, Left Arm Back:
+    Move Right Arm: 0.00
+    Move Left Arm: 0.00
+    Move Both Arms: 0.20
+  Right Arm Back, Left Arm Front:
+    Move Right Arm: 0.00
+    Move Left Arm: 0.00
+    Move Both Arms: 0.00
+  Right Arm Back, Left Arm Back:
+    Move Right Arm: 0.00
+    Move Left Arm: 0.00
+    Move Both Arms: 0.00
+
+=== Episode 1 @ 2025-05-20 17:34:55 ===
+Initial State: Right Arm Front, Left Arm Front
+Action: Move Both Arms
+Reward: -1
+Future State: Right Arm Back, Left Arm Back
+Q-Table:
+  Right Arm Front, Left Arm Front:
+    Move Right Arm: 0.00
+    Move Left Arm: 0.00
+    Move Both Arms: -0.20
+  Right Arm Front, Left Arm Back:
+    Move Right Arm: 0.00
+    Move Left Arm: 0.00
+    Move Both Arms: 0.00
+  Right Arm Back, Left Arm Front:
+    Move Right Arm: 0.00
+    Move Left Arm: 0.00
+    Move Both Arms: 0.00
+  Right Arm Back, Left Arm Back:
+    Move Right Arm: 0.00
+    Move Left Arm: 0.00
+    Move Both Arms: 0.00
+
+=== Episode 1 @ 2025-05-20 17:40:27 ===
+Initial State: Right Arm Front, Left Arm Front
+Action: Move Left Arm
+Reward: 1
+Future State: Right Arm Front, Left Arm Back
+Q-Table:
+  Right Arm Front, Left Arm Front:
+    Move Right Arm: 0.00
+    Move Left Arm: 0.20
+    Move Both Arms: 0.00
+  Right Arm Front, Left Arm Back:
+    Move Right Arm: 0.00
+    Move Left Arm: 0.00
+    Move Both Arms: 0.00
+  Right Arm Back, Left Arm Front:
+    Move Right Arm: 0.00
+    Move Left Arm: 0.00
+    Move Both Arms: 0.00
+  Right Arm Back, Left Arm Back:
+    Move Right Arm: 0.00
+    Move Left Arm: 0.00
+    Move Both Arms: 0.00
+
+=== Episode 2 @ 2025-05-20 17:40:33 ===
+Initial State: Right Arm Front, Left Arm Back
+Action: Move Left Arm
+Reward: -1
+Future State: Right Arm Front, Left Arm Front
+Q-Table:
+  Right Arm Front, Left Arm Front:
+    Move Right Arm: 0.00
+    Move Left Arm: 0.20
+    Move Both Arms: 0.00
+  Right Arm Front, Left Arm Back:
+    Move Right Arm: 0.00
+    Move Left Arm: -0.16
+    Move Both Arms: 0.00
+  Right Arm Back, Left Arm Front:
+    Move Right Arm: 0.00
+    Move Left Arm: 0.00
+    Move Both Arms: 0.00
+  Right Arm Back, Left Arm Back:
+    Move Right Arm: 0.00
+    Move Left Arm: 0.00
+    Move Both Arms: 0.00
+
+=== Episode 3 @ 2025-05-20 17:40:36 ===
+Initial State: Right Arm Front, Left Arm Front
+Action: Move Both Arms
+Reward: -1
+Future State: Right Arm Back, Left Arm Back
+Q-Table:
+  Right Arm Front, Left Arm Front:
+    Move Right Arm: 0.00
+    Move Left Arm: 0.20
+    Move Both Arms: -0.20
+  Right Arm Front, Left Arm Back:
+    Move Right Arm: 0.00
+    Move Left Arm: -0.16
+    Move Both Arms: 0.00
+  Right Arm Back, Left Arm Front:
+    Move Right Arm: 0.00
+    Move Left Arm: 0.00
+    Move Both Arms: 0.00
+  Right Arm Back, Left Arm Back:
+    Move Right Arm: 0.00
+    Move Left Arm: 0.00
+    Move Both Arms: 0.00
+
+=== Episode 4 @ 2025-05-20 17:40:40 ===
+Initial State: Right Arm Back, Left Arm Back
+Action: Move Right Arm
+Reward: 1
+Future State: Right Arm Front, Left Arm Back
+Q-Table:
+  Right Arm Front, Left Arm Front:
+    Move Right Arm: 0.00
+    Move Left Arm: 0.20
+    Move Both Arms: -0.20
+  Right Arm Front, Left Arm Back:
+    Move Right Arm: 0.00
+    Move Left Arm: -0.16
+    Move Both Arms: 0.00
+  Right Arm Back, Left Arm Front:
+    Move Right Arm: 0.00
+    Move Left Arm: 0.00
+    Move Both Arms: 0.00
+  Right Arm Back, Left Arm Back:
+    Move Right Arm: 0.20
+    Move Left Arm: 0.00
+    Move Both Arms: 0.00
+
+=== Episode 5 @ 2025-05-20 17:40:45 ===
+Initial State: Right Arm Front, Left Arm Back
+Action: Move Right Arm
+Reward: -1
+Future State: Right Arm Back, Left Arm Back
+Q-Table:
+  Right Arm Front, Left Arm Front:
+    Move Right Arm: 0.00
+    Move Left Arm: 0.20
+    Move Both Arms: -0.20
+  Right Arm Front, Left Arm Back:
+    Move Right Arm: -0.16
+    Move Left Arm: -0.16
+    Move Both Arms: 0.00
+  Right Arm Back, Left Arm Front:
+    Move Right Arm: 0.00
+    Move Left Arm: 0.00
+    Move Both Arms: 0.00
+  Right Arm Back, Left Arm Back:
+    Move Right Arm: 0.20
+    Move Left Arm: 0.00
+    Move Both Arms: 0.00
+
+=== Episode 6 @ 2025-05-20 17:40:53 ===
+Initial State: Right Arm Back, Left Arm Back
+Action: Move Both Arms
+Reward: -1
+Future State: Right Arm Front, Left Arm Front
+Q-Table:
+  Right Arm Front, Left Arm Front:
+    Move Right Arm: 0.00
+    Move Left Arm: 0.20
+    Move Both Arms: -0.20
+  Right Arm Front, Left Arm Back:
+    Move Right Arm: -0.16
+    Move Left Arm: -0.16
+    Move Both Arms: 0.00
+  Right Arm Back, Left Arm Front:
+    Move Right Arm: 0.00
+    Move Left Arm: 0.00
+    Move Both Arms: 0.00
+  Right Arm Back, Left Arm Back:
+    Move Right Arm: 0.20
+    Move Left Arm: 0.00
+    Move Both Arms: -0.16
+
+=== Episode 1 @ 2025-05-20 17:46:58 ===
+Initial State: Right Arm Front, Left Arm Front
+Action: Move Right Arm
+Reward: 1
+Future State: Right Arm Back, Left Arm Front
+Q-Table:
+  Right Arm Front, Left Arm Front:
+    Move Right Arm: 0.20
+    Move Left Arm: 0.00
+    Move Both Arms: 0.00
+  Right Arm Front, Left Arm Back:
+    Move Right Arm: 0.00
+    Move Left Arm: 0.00
+    Move Both Arms: 0.00
+  Right Arm Back, Left Arm Front:
+    Move Right Arm: 0.00
+    Move Left Arm: 0.00
+    Move Both Arms: 0.00
+  Right Arm Back, Left Arm Back:
+    Move Right Arm: 0.00
+    Move Left Arm: 0.00
+    Move Both Arms: 0.00
+
+=== Episode 2 @ 2025-05-20 17:47:02 ===
+Initial State: Right Arm Back, Left Arm Front
+Action: Move Right Arm
+Reward: -1
+Future State: Right Arm Front, Left Arm Front
+Q-Table:
+  Right Arm Front, Left Arm Front:
+    Move Right Arm: 0.20
+    Move Left Arm: 0.00
+    Move Both Arms: 0.00
+  Right Arm Front, Left Arm Back:
+    Move Right Arm: 0.00
+    Move Left Arm: 0.00
+    Move Both Arms: 0.00
+  Right Arm Back, Left Arm Front:
+    Move Right Arm: -0.16
+    Move Left Arm: 0.00
+    Move Both Arms: 0.00
+  Right Arm Back, Left Arm Back:
+    Move Right Arm: 0.00
+    Move Left Arm: 0.00
+    Move Both Arms: 0.00
+
+=== Episode 3 @ 2025-05-20 17:47:05 ===
+Initial State: Right Arm Front, Left Arm Front
+Action: Move Right Arm
+Reward: 1
+Future State: Right Arm Back, Left Arm Front
+Q-Table:
+  Right Arm Front, Left Arm Front:
+    Move Right Arm: 0.36
+    Move Left Arm: 0.00
+    Move Both Arms: 0.00
+  Right Arm Front, Left Arm Back:
+    Move Right Arm: 0.00
+    Move Left Arm: 0.00
+    Move Both Arms: 0.00
+  Right Arm Back, Left Arm Front:
+    Move Right Arm: -0.16
+    Move Left Arm: 0.00
+    Move Both Arms: 0.00
+  Right Arm Back, Left Arm Back:
+    Move Right Arm: 0.00
+    Move Left Arm: 0.00
+    Move Both Arms: 0.00
+
+=== Episode 4 @ 2025-05-20 17:47:08 ===
+Initial State: Right Arm Back, Left Arm Front
+Action: Move Left Arm
+Reward: -1
+Future State: Right Arm Back, Left Arm Back
+Q-Table:
+  Right Arm Front, Left Arm Front:
+    Move Right Arm: 0.36
+    Move Left Arm: 0.00
+    Move Both Arms: 0.00
+  Right Arm Front, Left Arm Back:
+    Move Right Arm: 0.00
+    Move Left Arm: 0.00
+    Move Both Arms: 0.00
+  Right Arm Back, Left Arm Front:
+    Move Right Arm: -0.16
+    Move Left Arm: -0.20
+    Move Both Arms: 0.00
+  Right Arm Back, Left Arm Back:
+    Move Right Arm: 0.00
+    Move Left Arm: 0.00
+    Move Both Arms: 0.00
+
+=== Episode 5 @ 2025-05-20 17:47:12 ===
+Initial State: Right Arm Back, Left Arm Back
+Action: Move Right Arm
+Reward: 1
+Future State: Right Arm Front, Left Arm Back
+Q-Table:
+  Right Arm Front, Left Arm Front:
+    Move Right Arm: 0.36
+    Move Left Arm: 0.00
+    Move Both Arms: 0.00
+  Right Arm Front, Left Arm Back:
+    Move Right Arm: 0.00
+    Move Left Arm: 0.00
+    Move Both Arms: 0.00
+  Right Arm Back, Left Arm Front:
+    Move Right Arm: -0.16
+    Move Left Arm: -0.20
+    Move Both Arms: 0.00
+  Right Arm Back, Left Arm Back:
+    Move Right Arm: 0.20
+    Move Left Arm: 0.00
+    Move Both Arms: 0.00
+
+=== Episode 6 @ 2025-05-20 17:47:16 ===
+Initial State: Right Arm Front, Left Arm Back
+Action: Move Left Arm
+Reward: -1
+Future State: Right Arm Front, Left Arm Front
+Q-Table:
+  Right Arm Front, Left Arm Front:
+    Move Right Arm: 0.36
+    Move Left Arm: 0.00
+    Move Both Arms: 0.00
+  Right Arm Front, Left Arm Back:
+    Move Right Arm: 0.00
+    Move Left Arm: -0.14
+    Move Both Arms: 0.00
+  Right Arm Back, Left Arm Front:
+    Move Right Arm: -0.16
+    Move Left Arm: -0.20
+    Move Both Arms: 0.00
+  Right Arm Back, Left Arm Back:
+    Move Right Arm: 0.20
+    Move Left Arm: 0.00
+    Move Both Arms: 0.00
+
+=== Episode 1 @ 2025-05-20 17:52:51 ===
+Initial State: Right Arm Front, Left Arm Front
+Action: Move Right Arm
+Reward: 1
+Future State: Right Arm Back, Left Arm Front
+Q-Table:
+  Right Arm Front, Left Arm Front:
+    Move Right Arm: 0.20
+    Move Left Arm: 0.00
+    Move Both Arms: 0.00
+  Right Arm Front, Left Arm Back:
+    Move Right Arm: 0.00
+    Move Left Arm: 0.00
+    Move Both Arms: 0.00
+  Right Arm Back, Left Arm Front:
+    Move Right Arm: 0.00
+    Move Left Arm: 0.00
+    Move Both Arms: 0.00
+  Right Arm Back, Left Arm Back:
+    Move Right Arm: 0.00
+    Move Left Arm: 0.00
+    Move Both Arms: 0.00
+
+=== Episode 2 @ 2025-05-20 17:52:57 ===
+Initial State: Right Arm Back, Left Arm Front
+Action: Move Both Arms
+Reward: 1
+Future State: Right Arm Front, Left Arm Back
+Q-Table:
+  Right Arm Front, Left Arm Front:
+    Move Right Arm: 0.20
+    Move Left Arm: 0.00
+    Move Both Arms: 0.00
+  Right Arm Front, Left Arm Back:
+    Move Right Arm: 0.00
+    Move Left Arm: 0.00
+    Move Both Arms: 0.00
+  Right Arm Back, Left Arm Front:
+    Move Right Arm: 0.00
+    Move Left Arm: 0.00
+    Move Both Arms: 0.20
+  Right Arm Back, Left Arm Back:
+    Move Right Arm: 0.00
+    Move Left Arm: 0.00
+    Move Both Arms: 0.00
+
+=== Episode 3 @ 2025-05-20 17:53:00 ===
+Initial State: Right Arm Front, Left Arm Back
+Action: Move Both Arms
+Reward: 1
+Future State: Right Arm Back, Left Arm Front
+Q-Table:
+  Right Arm Front, Left Arm Front:
+    Move Right Arm: 0.20
+    Move Left Arm: 0.00
+    Move Both Arms: 0.00
+  Right Arm Front, Left Arm Back:
+    Move Right Arm: 0.00
+    Move Left Arm: 0.00
+    Move Both Arms: 0.24
+  Right Arm Back, Left Arm Front:
+    Move Right Arm: 0.00
+    Move Left Arm: 0.00
+    Move Both Arms: 0.20
+  Right Arm Back, Left Arm Back:
+    Move Right Arm: 0.00
+    Move Left Arm: 0.00
+    Move Both Arms: 0.00
